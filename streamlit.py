@@ -4,12 +4,27 @@ Here's our first attempt at using data to create a table:
 """
 
 import streamlit as st
-import pandas as pd
 
-st.write("Here's our first attempt at using data to create a table using pd : ")
-df = pd.DataFrame({
-  'first column': [1, 2, 3, 4],
-  'second column': [10, 20, 30, 45]
-})
+if "chat" not in st.session_state:
+    st.session_state.chat = []
 
-df
+def process_prompt(prompt):
+  st.session_state.chat.append("User : "+prompt)
+  ## ask gemini
+  gemini_response="Gemini : Hello from gemini?"
+  st.session_state.chat.append(gemini_response)
+  show_messages()
+  return
+
+def show_messages():
+  for i in range(len(st.session_state.chat)):
+    if(i%2==0):
+      with st.chat_message("user"):
+        st.write(st.session_state.chat[i])
+    else:
+      with st.chat_message("assistant"):
+        st.write(st.session_state.chat[i])
+
+prompt = st.chat_input("Say something")
+if prompt:
+    process_prompt(prompt)
