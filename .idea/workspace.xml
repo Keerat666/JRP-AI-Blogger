@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a8f28a00-810f-42a8-8f41-c5567f8ba8c2" name="Changes" comment="added chat interface" />
+    <list default="true" id="a8f28a00-810f-42a8-8f41-c5567f8ba8c2" name="Changes" comment="added chat interface">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streamlit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamlit.py" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -20,27 +23,28 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="code-setup" />
         <entry key="$PROJECT_DIR$/src" value="tinkering" />
       </map>
     </option>
     <option name="RECENT_COMMON_BRANCH" value="master" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/src" />
   </component>
-  <component name="GitHubPullRequestSearchHistory"><![CDATA[{
-  "lastFilter": {
-    "state": "OPEN",
-    "assignee": "Keerat666"
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Keerat666&quot;
   }
-}]]></component>
-  <component name="GithubPullRequestsUISettings"><![CDATA[{
-  "selectedUrlAndAccountId": {
-    "url": "https://github.com/Keerat666/hello-streamlit.git",
-    "accountId": "6d018f86-8a17-4a99-b12c-b45de26f4668"
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/Keerat666/hello-streamlit.git&quot;,
+    &quot;accountId&quot;: &quot;6d018f86-8a17-4a99-b12c-b45de26f4668&quot;
   }
-}]]></component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 1
-}]]></component>
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 1
+}</component>
   <component name="ProjectId" id="2lABNJZllJ73L7VeLz17SOvmIF4" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -76,6 +80,7 @@
       <option name="presentableId" value="Default" />
       <updated>1724612959186</updated>
       <workItem from="1724612962883" duration="2716000" />
+      <workItem from="1724616381749" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <option name="closed" value="true" />
