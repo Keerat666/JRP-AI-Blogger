@@ -9,7 +9,7 @@ if "chat" not in st.session_state:
     st.session_state.chat = []
 
 def process_prompt(prompt):
-  st.session_state.chat.append("User : "+prompt)
+  st.session_state.chat.append("Job Ready Programmer : "+prompt)
   ## ask gemini
   gemini_response="Gemini : Hello from Gemini!"
   st.session_state.chat.append(gemini_response)
