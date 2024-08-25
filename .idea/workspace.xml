@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8f28a00-810f-42a8-8f41-c5567f8ba8c2" name="Changes" comment="added chat interface">
-      <change beforePath="$PROJECT_DIR$/src" beforeDir="false" afterPath="$PROJECT_DIR$/src" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/streamlit.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/streamlit.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -23,6 +23,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
+        <entry key="$PROJECT_DIR$" value="code-setup" />
         <entry key="$PROJECT_DIR$/src" value="tinkering" />
       </map>
     </option>
@@ -52,7 +53,6 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "init",
     "node.js.detected.package.eslint": "true",
@@ -79,7 +79,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1724612959186</updated>
-      <workItem from="1724612962883" duration="2891000" />
+      <workItem from="1724612962883" duration="2716000" />
+      <workItem from="1724616381749" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="hello world">
       <option name="closed" value="true" />
@@ -159,7 +160,6 @@
     <MESSAGE value="did some tinkering" />
     <MESSAGE value="readme updated" />
     <MESSAGE value="added chat interface" />
-    <MESSAGE value="edited chat interface" />
-    <option name="LAST_COMMIT_MESSAGE" value="edited chat interface" />
+    <option name="LAST_COMMIT_MESSAGE" value="added chat interface" />
   </component>
 </project>
