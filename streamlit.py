@@ -11,7 +11,7 @@ if "chat" not in st.session_state:
 def process_prompt(prompt):
   st.session_state.chat.append("User : "+prompt)
   ## ask gemini
-  gemini_response="Gemini : Hello from Gemini?"
+  gemini_response="Gemini : Hello from Gemini!"
   st.session_state.chat.append(gemini_response)
   show_messages()
   return
