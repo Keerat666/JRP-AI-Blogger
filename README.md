@@ -1,1 +1,1 @@
-# hello-streamlit
+# JRP AI Blogger
