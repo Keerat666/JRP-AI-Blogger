@@ -32,11 +32,6 @@ This project uses Streamlit for the user interface. Follow the steps below to ru
 ### Additional Information
 
 - **Stopping the server**: To stop the Streamlit server, go back to your terminal and press `Ctrl+C`.
-- **Dependencies**: Ensure all required dependencies are listed in a `requirements.txt` file. You can install them using:
-
-    ```sh
-    pip install -r requirements.txt
-    ```
-Also make sure to provide your API key in the `streamlit_ui_capstone.py` file.
+- **Dependencies**: Make sure to provide your API key in the `streamlit_ui_capstone.py` file.
 
 That's it! You should now be able to run and interact with the JRP AI Blogger project.
